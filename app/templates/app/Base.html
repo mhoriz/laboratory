@@ -6,11 +6,20 @@
     <title>Title</title>
     <link rel ="stylesheet" href="{% static 'css/Base.css' %}">
 </head>
+<style>
+    body {
+        background-color: pink;
+    }
+</style>
 <body>
     {% include 'app/Navrbar.html'%}
 
 
     {% block content %}
+
+    <footer>
+        <p>&copy; 2024 My Homepage. All rights reserved.</p>
+    </footer>
 
     {% endblock content %}
     <script src="{% static 'js/Base.js' %}"></script>
