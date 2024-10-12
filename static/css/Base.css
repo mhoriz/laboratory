@@ -1,0 +1,14 @@
+h1 {
+    color: orange;
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.mylogo {
+    height: 300px;
+    width: auto;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
