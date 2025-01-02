@@ -1,0 +1,19 @@
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 1px 0;
+    text-align: left;
+}
+.categories{
+    margin: 70px 0;
+}
+.product{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+body {
+        background-color: pink;
+    }
+

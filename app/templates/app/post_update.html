@@ -1,0 +1,16 @@
+{% extends 'app/Base.html' %}
+{% load static %}
+{% block content %}
+        <h1>EDIT POST</h1>
+        <form action="{% url 'post_update' object.pk %}" method="Resident">
+            {% csrf_token %}
+            {{form.as_p}}
+            <input type="submit" value="Update">
+        </form>
+{% endblock content %}
+
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Update">
+</form>
